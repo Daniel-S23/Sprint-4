@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles\style.css">
+  <link rel="stylesheet" href="styles\formulario.css">
+  <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+
+  <title>Formulario Pago</title>
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><img
+        src="https://res.cloudinary.com/dcyn2bjb9/image/upload/v1647526462/samples/tiendita/cancel_fmuszg.png"
+        alt=""></a>
+    <p>Volver</p>
+  </header>
+
+  <main>
+    <section class="carritoModal">
+
+    </section>
+
+    <section class="formularioCont">
+      <form action="">
+        <LABEL>Correo Electronico</LABEL><br>
+        <input class="full" type="email" required><br>
+        <LABEL>Informacion de la Tarjeta</LABEL><br>
+        <input class="full" type="number" placeholder="0000 0000 0000 0000" required><br>
+        <div class="infoTarjeta2">
+          <input type="date" class="media" placeholder="MM/YY" required>
+          <input type="number" class="media" placeholder="CVV" required>
+        </div>
+        <LABEL>Nombre en la tarjeta</LABEL><br>
+        <input class="full" type="name" required>
+        <button type="submit" id="btnPagar"></button>
+      </form>
+    </section>
+  </main>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="scripts\formulario.js"></script>
+</body>
+
+</html>

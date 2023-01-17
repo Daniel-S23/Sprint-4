@@ -1,0 +1,86 @@
+{
+  "ofertas": [
+    {
+      "id": 1,
+      "nombre": "Limon con semilla",
+      "precioFinal": 26.82,
+      "precioInicial": 39.9,
+      "imagen": "https://res.cloudinary.com/dcyn2bjb9/image/upload/v1647216490/samples/tiendita/Product_v3lbb4.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Tomate",
+      "precioFinal": 21.7,
+      "precioInicial": 32.9,
+      "imagen": "img/tomate.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Aguacate Hass",
+      "precioFinal": 56.82,
+      "precioInicial": 69.9,
+      "imagen": "/img/aguacate.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Nopal Limpio",
+      "precioFinal": 25.8,
+      "precioInicial": 29.9,
+      "imagen": "img/nopal limpio.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Tomate verde sin cascara",
+      "precioFinal": 22.8,
+      "precioInicial": 24.9,
+      "imagen": "/img/tomate verde sin cascara.png"
+    }
+  ],
+  "populares": [
+    {
+      "id": 1,
+      "nombre": "San Rafael pechuga de pavo",
+      "precioAhora": 62.5,
+      "contenido": "250g",
+      "pesoGramos": "0.25",
+      "unidadMedida": "gr",
+      "imagen": "img/pechuga de pavo.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Pan Bimbo grande",
+      "precioAhora": 38.9,
+      "contenido": "680g",
+      "pesoGramos": "0.6",
+      "unidadMedida": "gr",
+      "imagen": "img/pan.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Mayonesa",
+      "precioAhora": 48.5,
+      "contenido": "507g",
+      "pesoGramos": "0.1",
+      "unidadMedida": "gr",
+      "imagen": "img/mayonesa.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Pasta dental Colgate",
+      "precioAhora": 35.5,
+      "contenido": "125ml",
+      "pesoGramos": "0.28",
+      "unidadMedida": "ml",
+      "imagen": "img/colgate.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Huevos san juan",
+      "precioAhora": 37.5,
+      "contenido": "18Und",
+      "pesoGramos": "2.08",
+      "unidadMedida": "u",
+      "imagen": "img/huevos.png"
+    }
+  ]
+}
